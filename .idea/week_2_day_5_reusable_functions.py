@@ -1,1 +1,0 @@
-# Step 1, draw a turtle line.
