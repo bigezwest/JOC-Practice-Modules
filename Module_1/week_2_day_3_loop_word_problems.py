@@ -24,5 +24,5 @@ print(i + 3)
 # 3
 # See avg.py
 print("------------------\n")
-print("See day_3_avg.py for question 3.")
+print("See week_2_day_3_avg.py for question 3.")
 
