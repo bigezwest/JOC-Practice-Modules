@@ -1,0 +1,6 @@
+print("")
+user_input = input("Enter a synonym for the word faster: ")
+print("\t--------------------------------------------------------")
+print("\tMy laptop is so much " + user_input + " than yours.")
+print("\tI am surprised you are not just carrying around a stone tablet. ")
+print("\t--------------------------------------------------------")
