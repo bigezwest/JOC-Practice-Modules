@@ -2,5 +2,17 @@
 # ASCII art pyramid to the screen with number rows:
 
 
-for i in range(2):
-    print("*" * (i + 1))
+def pyramid(char, size):
+    for i in range(size):
+        print(char * (i + 1))
+    print()
+
+
+def main():
+
+    pyramid("*", 2)
+    pyramid("+", 5)
+    pyramid("x", 10)
+
+
+main()
