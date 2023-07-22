@@ -26,11 +26,15 @@ def turtle_shift(length):
     turtle.pendown()
 
 
+def house(length):
+    triangle(length)
+    square(length)
+
+
 def main():
     size = 100                      # size of one side
     for i in range(5):              # draw 5 times
-        triangle(size)
-        square(size)
+        house(size)
         turtle_shift(size + 10)     # create a space for the next house
         size *= .75                 # size of next line
 
