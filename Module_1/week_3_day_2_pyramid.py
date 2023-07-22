@@ -10,8 +10,13 @@ def pyramid(char, size):
 
 def main():
 
+    print('Running: pyramid("*", 2)')
     pyramid("*", 2)
+
+    print('Running: pyramid("+", 5)')
     pyramid("+", 5)
+
+    print('Running: pyramid("x", 10)')
     pyramid("x", 10)
 
 
