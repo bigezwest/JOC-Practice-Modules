@@ -1,3 +1,6 @@
+# there.py
+# Thomas D'Angelo
+#
 # 7. Write a function, there, that takes a number n as a parameter, and returns 2n if n is positive, and 0 otherwise.
 # Your function should output the following for the given calls:
 # Example call Returns:
@@ -19,6 +22,8 @@ def there(n):
 def main():
     print("\n\tTest Results")
     print("\t------------------------------ \t")
+    print("\tTest Case\t\t\t\t\t\t Result")
+    print("\t----------\t\t\t\t\t\t------")
     print("\t2 raised to the 5th power is: \t", there(5))
     print("\t2 raised to the 0 power is: \t", there(0))
     print("\t2 raised to the 3rd power is: \t", there(3))
