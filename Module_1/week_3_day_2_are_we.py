@@ -1,3 +1,6 @@
+# are_we.py
+# Thomas D'Angelo
+#
 # 8. Write a function are_we that takes a number of times to repeat and a phrase to
 # be repeated as parameters and outputs the following for the given calls:
 # Example call Prints:
