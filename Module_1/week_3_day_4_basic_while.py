@@ -1,7 +1,7 @@
 # This is just a test of each of the different problems in the worksheet.
 
 def func_a():
-    j = 4
+    j = 4                           # Loop variable
     while j > -4:
         print(j)
         j -= 1
@@ -9,7 +9,7 @@ def func_a():
 
 def func_b():
     string = "Hello"
-    builder = ""
+    builder = ""                    # Accumulator
     i = 0
     while i < len(string):
         builder += string[i].swapcase()
