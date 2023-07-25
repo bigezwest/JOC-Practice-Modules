@@ -45,7 +45,7 @@ def print_stars(ch, count):
 # 2. Write a while loop that prints the letters in “CSCI 150” on separate lines.
 def show_course(course):
     i = 0
-    while (i < len(course)):
+    while i < len(course):
         print(course[i])
         i += 1
 
@@ -65,7 +65,9 @@ def list_work():
     print()
     print("User List:", sorted(user_list))
     print("Sum of Nums:", sum(user_list))
-    print("Average of Nums:", (sum(user_list)/ len(user_list)))
+    print("Average of Nums:", (sum(user_list) / len(user_list)))
+
+
 def main():
     print('Running to_5.  Prints to 1 - 5.')
     to_5(1)
@@ -91,5 +93,6 @@ def main():
     print('Running list_work()')
     list_work()
     print('-------------------------------- ')
+
 
 main()
