@@ -21,12 +21,15 @@ def average_neg_evens(user_list):
 #       Outputs: 6
 def count_letter(user_list, ch):
     ch = ch.lower()                     # to hold char to search for.  make it lowercase
-    count = 0                           # count of occurences
+    count = 0                           # count of occurrences
 
-    for word in user_list:              # for each word in list
-        for word_char in word:          # for each char in that word
-            if word_char.lower() == ch: # if char.lower == searched for char
-                count += 1              # add one to count
+    i = 0
+    while i < len(user_list):
+        for word in user_list:                  # for each word in list
+            for word_char in word:              # for each char in that word
+                if word_char.lower() == ch:     # if char.lower == searched for char
+                    count += 1                  # add one to count
+                i += 1
     return count
 
 
